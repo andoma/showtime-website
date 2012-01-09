@@ -86,6 +86,11 @@ makenews = function(entry) {
 	<a href="donate">Donate</a>
       </li>
 
+
+      <li class="notselected">
+	<a href="https://www.lonelycoder.com/redmine/projects/showtime">Developers</a>
+      </li>
+
       <span style="float:right;font-weight:900">Showtime Mediacenter</span>
 
     </ul>
