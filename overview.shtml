@@ -1,0 +1,108 @@
+<!--#set var="title" value="Showtime" -->
+<!--#set var="curpage" value="overview" -->
+
+<!--#include virtual="header.shtml" -->
+
+<div style="display:block;">
+  <img src="showtime_256.png" style="float:right; padding: 5px; width:440px">
+
+  <p><strong style="font-size: 1.5em">Showtime</strong> is a media player for use on <a href="http://en.wikipedia.org/wiki/HTPC">HTPC</a> media centers. It is primarily intended to be controlled via keypad input such as a IR or bluetooth remote control, keyboards, etc but works also very well with a pointer device.</p>
+  <p>A quick overview of its features:</p>
+  <ul>
+    <li>Playback of <strong>video</strong> and <strong>audio</strong></li>
+    <li>Javascript <strong>plugins</strong></li>
+    <li>Unified <strong>search</strong></li>
+    <li>View <strong>photos</strong> and <strong>images</strong> in slideshow mode</li>
+    <li><strong>Live TV</strong> streaming from <a href="/tvheadend">Tvheadend</a></li>
+    <li><a href="http://www.spotify.com/">Spotify</a> integration</li>
+  </ul>
+  Available on <strong>Linux</strong>, <strong>OS/X</strong> and <strong>PS3</strong>
+  <div style="clear:both;"/>
+</div>
+
+
+<div style="display:block; margin-bottom:30px; margin-top:30px">
+  <div style="float:right; width: 440px; margin:5px">
+    <h2>Applications</h2>
+    <p>New applications can be implemented in a whim thanks to Showtime's Javascript based plugin framework.</p>
+    <p>See the <a href="apps">Apps</a> tab for a full list of all available applications</p>
+  </div>
+
+  <div style="float:left;  width: 440px; margin:5px">
+    <h2>Easy access to all your media</h2>
+    Showtime can browse and play files from these type of sources:
+    <ul>
+      <li>Local file system</li>
+      <li>UPnP/DLNA servers, such as <a href="http://www.twonky.com">Twonky</a>, <a href="http://mediatomb.cc/">MediaTomb</a>, <a href="http://sourceforge.net/projects/minidlna/">MiniDLNA</a> or Window Media Player</li>
+      <li>Webdav and HTTP servers</li>
+    </ul>
+    Showtime also offers transparent decompression and browsing of ZIP and RAR archives.
+  </div>
+  
+  <div style="clear:both"></div>
+</div>
+
+
+
+
+<div style="display:block">
+  <div style="float:right; width: 440px; margin:5px">
+    <h2>Audio playback</h2>
+    Playback of audio tracks works pretty much as expected. Starting to play from a view will continue to play following the track until the end.</p><p>Showtime supports all audio formats supported by <a href="http://www.libav.org/">libav</a> which includes mainstream formats such as MP3, AAC (m4a), OGG, FLAC, WAV, WMA.</p>
+   <p>In addition it supports SID tunes via <a href="http://sidplay2.sourceforge.net/">sidplay2</a> and video game music files via <a href="http://www.slack.net/~ant/libs/audio.html">libgme</a>.</p>
+   <p>Also, playing directly from a good old CD works just fine.</p>
+  </div>
+  
+  <div style="float:left; width: 440px; margin:5px">
+    <h2>Video playback</h2>
+    <ul>
+      <li>Showtime supports all video formats supported by <a href="http://www.libav.org/">libav</a></li>
+      <li>DVD playback from DVD drive or direct from ISO files</li>
+      <li><a href="http://en.wikipedia.org/wiki/VDPAU">VDPAU</a> accelerated video decoding (on Linux)</li>
+      <li>OpenGL accelerated deinterlacing</li>
+      <li>Cell/SPU accelerated h264 decoding (on PS3)</li>
+    </ul>
+  </div>
+  <div style="clear:both"></div>
+</div>
+
+<div style="display:block">
+  <div style="float:right; width: 440px; margin:5px">
+    <h2>Unified search</h2>
+    <p>Search has never been easier &#8211; Just type the keywords in the search bar and Showtime will search all media sources that have been configured. Results will be grouped by source so you can easially separate them from each other.</p>
+    <p>The search input field also accepts any type of URL that Showtime understands.</p>
+    
+  </div>
+  <div style="float:left; width: 440px; margin:5px">
+    <h2>Spotify integration</h2>
+    <div style="float:right; margin:5px">
+      <img src="spotify-core-logo-96x96.png"/>
+    </div>
+    <p>Showtime integrates to the <a href="http://www.spotify.com/">Spotify</a> music service via <a href="http://developer.spotify.com/en/libspotify/overview/">libspotify</a>. The integration currently offers:</p>
+    <ul>
+      <li>Browsing of current logged in users playlists</li>
+      <li>Search for tracks, albums and artists</li>
+      <li>Inbox support</li>
+      <li>What's new</li>
+      <li>Starred tracks</li>
+    </ul>
+  </div>
+  <div style="clear:both"></div>
+</div>
+
+<div style="display:block">
+  <div style="float:right; width: 440px; margin:5px">
+    <h2>Soothing backgrounds</h2>
+    While playing music and if Showtime enter screen saver mode it will animate a constant flow of images related to the currently playing artist. The images are downloaded using <a href="http://www.last.fm/">LastFM</a>'s web API.
+  </div>
+  <div style="float:left; width: 440px; margin:5px">
+    <h2>Skinnable UI</h2>
+    <p>Showtime's primary userinterface, as seen in the screenshot at the top of this page, is modelled in Showtime's own view declaration language.</p>
+    <p>At the moment none of the view declaration language is documented but should interest arise from the community to help with skinning and modelling of UI I will try to document and describe how it works.</p>
+  </div>
+  <div style="clear:both"></div>
+</div>
+    
+<p>&#8211; Andreas Öman, Project leader</p>
+
+<!--#include virtual="footer.shtml" -->

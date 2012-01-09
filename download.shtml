@@ -1,0 +1,15 @@
+<!--#set var="title" value="Showtime - Download" -->
+<!--#set var="curpage" value="download" -->
+<!--#include virtual="header.shtml" -->
+
+<p>There are no official builds for all targets that Showtime supports at the moment</p>
+
+<p>First check in Showtime's official <a href="https://www.github.com/andoma/showtime/downloads">download section</a>.</p>
+
+<p>Otherwise you need to checkout and build it from source. Do as follows<p>
+
+<p><code>git clone git://github.com/andoma/showtime.git</code></p>
+
+<p>For instructions how to build, consult the <a href="https://github.com/andoma/showtime/blob/master/README.markdown">README</a> file</p>
+
+<!--#include virtual="footer.shtml" -->

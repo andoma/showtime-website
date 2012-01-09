@@ -1,0 +1,10 @@
+<!--#set var="title" value="Showtime - Apps" -->
+<!--#set var="curpage" value="apps" -->
+
+<!--#include virtual="header.shtml" -->
+
+<p>This is the current list of third party applications available in Showtime at the moment.</p>
+<p>To use a plugin in Showtime, just navigate to the jigsaw puzzle icon (found in the top navigation bar) on Showtime's home screen and from there you can browse a list of all these plugins and also install them.</p>
+
+<!--#include virtual="plugins.html" -->
+<!--#include virtual="footer.shtml" -->

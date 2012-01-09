@@ -1,0 +1,27 @@
+<!--#set var="title" value="Showtime - Donate" -->
+<!--#set var="curpage" value="donate" -->
+<!--#include virtual="header.shtml" -->
+
+<p>
+If you like Showtime and use it a lot, why not make a donation?
+</p>
+<p>
+Donation are made to my (Andreas - The project leader's) <a href="http://www.paypal.com/">Paypal</a> account by pressing the 'Donate' button below.
+</p>
+<p>
+I will keep track of the money and primarily spend it on Showtime related things (such as hardware, etc).
+</p>
+<p>
+Please remember that Showtime is a spare time project of mine and that the time available for development varies a lot. I would appreciate if you think of donations as a way to express your gratitude of what's already been made rather than a way to pay for features or bug fixes in advance. I have a family and a daytime job which are both (obviously) given priority over this project.
+</p>
+<p>&#8211; Andreas, Project leader</p>
+
+<form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="andreas@lonelycoder.com">
+<input type="hidden" name="item_name" value="Donation to the Showtime project">
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+</form>
+
+<!--#include virtual="footer.shtml" -->
