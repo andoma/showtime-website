@@ -37,7 +37,9 @@ makenews = function(entry) {
 <body>
   <title><!--#echo var="title" --></title>
 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<style type="text/css">
+<!--#include virtual="stylesheet.css" -->
+</style>
   <link rel="icon" href="http://www.lonelycoder.com/favicon.ico" type="image/x-icon"> 
   <div style="width: 900px; margin-left:auto; margin-right:auto">
 

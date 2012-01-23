@@ -75,9 +75,6 @@ h2 {
     text-decoration:none;
 }
 
-
-
-
 .newsentry {
     margin-top:10px;
     margin-bottom:20px;
@@ -94,18 +91,9 @@ h2 {
     margin-bottom: 5px;
 }
 
-
-
-
-
-
-
-
-
 .contentsection {
     clear: both;
 }
-
 
 #main {
     float: left; width: 65%;
@@ -124,7 +112,6 @@ h2 {
     padding: 10px;
 }
 
-
 code {
     font:"Courier New", "Lucida Console", Arial;
     padding:5px;
@@ -137,55 +124,6 @@ code {
 .screenshoticon {
     float:left;
     padding-right: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.hts-doc-chapter {
-    margin-top:10px;
-    border-bottom:3px solid #EFF8FB;
-    font:normal 22px verdana;
-}
-
-.hts-doc-section {
-    margin-top:10px;
-    font:normal 18px verdana;
-    border-bottom:2px solid #EFF8FB;
-}
-
-.hts-doc-text {
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.hts-doc-text dt {
-    padding-top: 10px;
-    font-weight: bold;
-}
-
-.hts-doc-text dl {
-    padding-bottom: 10px;
-}
-
-.hts-doc-text li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.hts-doc-text img {
-    padding: 10px;
-}
-
-.hts-doc-text h1 {
-    border:0px;
 }
 
 
@@ -221,16 +159,13 @@ code {
     background:#cccccc;
 }
 
-
 .plugin-title {
     font-weight: 700;
 }
 
-
 .plugin-desc {
     display: block;
 }
-
 
 .plugin-synopsis {
     display: block;
