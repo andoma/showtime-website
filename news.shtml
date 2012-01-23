@@ -1,0 +1,19 @@
+<!--#set var="title" value="Showtime - News" -->
+<!--#set var="curpage" value="news" -->
+<!--#include virtual="header.shtml" -->
+
+<script>
+  $(document).ready(function () {
+    $.get("/redmine/news.atom", function(data){
+    html = "";
+    $(data).find("entry").each(function(){
+       html += makenews(this);
+    });
+    $(".allnews").append(html);
+  });
+});
+</script>
+<div class='allnews'>
+</div>
+
+<!--#include virtual="footer.shtml" -->

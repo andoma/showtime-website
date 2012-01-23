@@ -52,7 +52,6 @@ makenews = function(entry) {
 	<a href="/showtime">Overview</a>
       </li>
 
-
       <!--#if expr='"$curpage" = "download"' -->
       <li class="selected">
 	<!--#else -->
@@ -61,6 +60,13 @@ makenews = function(entry) {
 	<a href="download">Download</a>
       </li>
 
+      <!--#if expr='"$curpage" = "news"' -->
+      <li class="selected">
+	<!--#else -->
+      <li class="notselected">
+	<!--#endif -->
+	<a href="news">News</a>
+      </li>
 
       <!--#if expr='"$curpage" = "apps"' -->
       <li class="selected">
@@ -70,16 +76,6 @@ makenews = function(entry) {
 	<a href="apps">Apps</a>
       </li>
 
-      <li class="notselected">
-	<a href="https://www.lonelycoder.com/redmine/projects/showtime/boards">Forums</a>
-      </li>
-
-      <li class="notselected">
-	<a href="https://www.lonelycoder.com/redmine/projects/showtime/wiki/FAQ">FAQ</a>
-      </li>
-
-
-
       <!--#if expr='"$curpage" = "donate"' -->
       <li class="selected">
 	<!--#else -->
@@ -88,6 +84,13 @@ makenews = function(entry) {
 	<a href="donate">Donate</a>
       </li>
 
+      <li class="notselected">
+	<a href="https://www.lonelycoder.com/redmine/projects/showtime/boards">Forums</a>
+      </li>
+
+      <li class="notselected">
+	<a href="https://www.lonelycoder.com/redmine/projects/showtime/wiki/FAQ">FAQ</a>
+      </li>
 
       <li class="notselected">
 	<a href="https://www.lonelycoder.com/redmine/projects/showtime">Developers</a>
