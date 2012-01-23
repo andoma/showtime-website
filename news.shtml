@@ -4,7 +4,7 @@
 
 <script>
   $(document).ready(function () {
-    $.get("/redmine/news.atom", function(data){
+    $.get("/redmine/projects/showtime/news.atom", function(data){
     html = "";
     $(data).find("entry").each(function(){
        html += makenews(this);
