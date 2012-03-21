@@ -36,7 +36,7 @@ h2 {
 
 
 .navbar {
-    border-bottom:3px solid #EFF8FB;
+    border-bottom:3px solid #DFE8EB;
     height:25px;
     margin:0;
     padding:2px 0;
@@ -116,6 +116,7 @@ code {
     font:"Courier New", "Lucida Console", Arial;
     padding:5px;
     border:1px solid #000;
+    border-radius: 5px;
     margin:5px;
     background-color: #EFF8FB;
     display: block;
@@ -171,3 +172,5 @@ code {
     display: block;
     margin-bottom:10px;
 }
+
+
