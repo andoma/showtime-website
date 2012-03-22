@@ -96,6 +96,7 @@
 
 
 .download-item {
+    position:relative;
     margin: -1px;
     padding: 2px;
     padding-left: 10px;
@@ -110,25 +111,32 @@
 
 .download-item-filename {
     font-weight: 700;
-}
-
-.download-item-title {
-    padding-left: 10px;
-    font:normal 10px verdana;
-}
-
-.download-item-title:before {
-    content: '(';
-}
-
-.download-item-title:after {
-    content: ')';
-}
-
-.download-item-md5 {
-    display: none;
+    display: inline;
 }
 
 .download-item-size {
     float: right;
+    display: inline;
+}
+
+.download-item-title {
+    font:normal 10px verdana;
+    margin-top:2px;
+    display: block;
+}
+
+.download-item-date {
+    font:normal 10px verdana;
+    color:#888;
+    position:absolute;
+    bottom:2px;
+    right:10px;
+}
+
+
+.download-item-md5 {
+    display: none;
+}
+.download-item-sha1 {
+    display: none;
 }
