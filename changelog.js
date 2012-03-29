@@ -8,9 +8,13 @@ $(document).mousemove(function (e) {
 function viewChangeLog(url) {
   $.getJSON(url, function(data) {
     var items = [];
-    for(var v = 0; v < data.entries.length; v++) {
-      item = data.entries[v];
-      items.push('<div class="clentry"><h2>' + item.version + '</h2>' + item.desc + '</div>');
+    if(data.entries.length == 0) {
+      items.push('<div class="clentry">Sorry, seems to be no ChangeLog entries available here yet :-(</div>');
+    } else {
+      for(var v = 0; v < data.entries.length; v++) {
+	item = data.entries[v];
+	items.push('<div class="clentry"><h2>' + item.version + '</h2>' + item.desc + '</div>');
+      }
     }
 
     $("#changelog")
