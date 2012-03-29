@@ -23,6 +23,12 @@
     padding-left: 10px;
 }
 
+.download-branch-version {
+    font:normal 12px verdana;
+    display: inline;
+    padding-left: 10px;
+}
+
 .download-branch-version:before {
     content: '(';
 }
@@ -30,6 +36,13 @@
 .download-branch-version:after {
     content: ')';
 }
+
+
+.download-branch-changelog {
+    display:inline;
+    padding-left: 10px;
+}
+
 
 
 .download-branch-description {
@@ -88,6 +101,11 @@
     content: ')';
 }
 
+.download-target-changelog {
+    display:inline;
+    padding-left: 10px;
+}
+
 
 .download-items {
     margin-top: 10px;
@@ -139,4 +157,9 @@
 }
 .download-item-sha1 {
     display: none;
+}
+
+.clentry a {
+    text-decoration:none;
+    color:#579;
 }
