@@ -5,25 +5,10 @@ $(document).mousemove(function (e) {
   popup_y = e.pageY;
 });
 
-function viewChangeLog(url) {
-  $.getJSON(url, function(data) {
-    var items = [];
-    if(data.entries.length == 0) {
-      items.push('<div class="clentry">Sorry, seems to be no ChangeLog entries available here yet :-(</div>');
-    } else {
-      for(var v = 0; v < data.entries.length; v++) {
-	item = data.entries[v];
-	items.push('<div class="clentry"><h2>' + item.version + '</h2>' + item.desc + '</div>');
-      }
-    }
-
-    $("#changelog")
-    .dialog({
-      title: 'ChangeLog for ' + data.title,
-      position: [popup_x, Math.min(popup_y, window.innerHeight - 500)],
-      width: 600,
-      height: 500
-    })
-    .html(items.join(''));
-  });
+function viewChangeLog(id) {
+  $('#'+id).dialog({
+    position: [popup_x, Math.min(popup_y, window.innerHeight - 540)],
+    width: 600,
+    height: 500
+  })
 }
