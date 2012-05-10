@@ -1,6 +1,6 @@
 
 body {
-    font:normal 12px verdana;
+    font:normal 12px arial;
     margin:10px;
     overflow:scroll;
 }
@@ -25,12 +25,12 @@ a:focus {
 h1 {
     margin-top:10px;
     border-bottom:3px solid #EFF8FB;
-    font:normal 22px verdana;
+    font:normal 22px arial;
 }
 
 h2 {
     margin-top:10px;
-    font:normal 18px verdana;
+    font:normal 18px arial;
     border-bottom:2px solid #EFF8FB;
 }
 
@@ -83,11 +83,11 @@ h2 {
 
 .newsentryfooter {
     text-align: right;
-    font:normal 10px verdana;
+    font:normal 10px arial;
 }
 
 .newsentryheader {
-    font:normal 16px verdana;
+    font:normal 16px arial;
     margin-bottom: 5px;
 }
 
@@ -106,7 +106,7 @@ h2 {
 #footer {
     clear: both;
     border: 1px solid #888;
-    font:normal 10px verdana;
+    font:normal 10px arial;
     background:#ddd;
     color:#555;
     padding: 10px;
@@ -132,12 +132,12 @@ code {
     border: 1px solid #000;
     border-collapse: collapse;
     text-align: left;
-    font:normal 12px verdana;
+    font:normal 12px arial;
 }
 
 .plugin-table th {
     text-align: left;
-    font:normal 10px verdana;
+    font:normal 10px arial;
     border-style: solid;
     border-color: #000;
     border-width: 1px;
